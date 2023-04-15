@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 id="x1" class="x">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit ea est libero ndis?</h1>
+    <button onclick="text()">Text-Change</button>
+
+    <script>
+        h1_tag = document.getElementById('x1');
+
+        function text() {
+            h1_tag.innerHTML = "My Name Is Ganpa Parth";
+            h1_tag.style.color = "red";
+        }
+    </script>
+</body>
+
+</html>
